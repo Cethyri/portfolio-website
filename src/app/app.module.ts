@@ -8,9 +8,14 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AngularMaterialModule } from "./modules/angular-material/angular-material.module";
 
 import { NavBarComponent } from "./components/nav-bar/nav-bar.component";
+import { BioComponent } from './components/pages/bio/bio.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { PersonalProjectsComponent } from './components/pages/personal-projects/personal-projects.component';
+import { ProfessionalProjectsComponent } from './components/pages/professional-projects/professional-projects.component';
+import { ResumeComponent } from './components/pages/resume/resume.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent],
+  declarations: [AppComponent, NavBarComponent, BioComponent, ContactComponent, PersonalProjectsComponent, ProfessionalProjectsComponent, ResumeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
