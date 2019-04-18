@@ -1,6 +1,24 @@
 <div class="sheet">
-    <h1 class="mat-h1">Christopher Robinson | Game Designer/Developer | Full Stack Developer</h1>
-    <app-nav-bar></app-nav-bar>
-    
-    <router-outlet></router-outlet>
+    <header>
+        <h1 class="mat-h1">Christopher Robinson | Game Designer/Developer | Full Stack Developer</h1>
+        <div class="icons">
+            <mat-icon>email</mat-icon>
+            <a href="https://github.com/Cethyrion">
+                <img src="assets/GitHub.svg">
+            </a>
+            <a href="https://www.linkedin.com/in/christophermichaelrobinson/">
+                <img src="assets/square-linkedin-512.png">
+            </a>
+        </div>
+        <app-nav-bar></app-nav-bar>
+    </header>
+
+    <div class="margins">
+        <router-outlet></router-outlet>
+    </div>
+    <footer>
+        <hr>
+
+        <h4 class=".mat-h4">Copyright &copy; 2019 Christopher Robinson. All Rights Reserved</h4>
+    </footer>
 </div>

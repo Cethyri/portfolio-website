@@ -14,13 +14,16 @@ import { PersonalProjectsComponent } from './components/pages/personal-projects/
 import { ProfessionalProjectsComponent } from './components/pages/professional-projects/professional-projects.component';
 import { ResumeComponent } from './components/pages/resume/resume.component';
 
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+
 @NgModule({
   declarations: [AppComponent, NavBarComponent, BioComponent, ContactComponent, PersonalProjectsComponent, ProfessionalProjectsComponent, ResumeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
