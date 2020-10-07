@@ -1,6 +1,32 @@
+<header>
+	<mat-toolbar>
+		<!-- <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="menu icon-button">
+			<mat-icon>menu</mat-icon>
+		</button>
+		<mat-menu #menu="matMenu">
+			<button mat-menu-item>Item 1</button>
+			<button mat-menu-item routerLink="/">Bio</button>
+			<button mat-menu-item routerLink="/personal-projects">Personal Projects</button>
+			<button mat-menu-item routerLink="/professional-projects">Professional Projects</button>
+			<button mat-menu-item routerLink="/resume">Resume</button>
+			<button mat-menu-item routerLink="/contact">Contact</button>
+		</mat-menu> -->
+		<span>Christopher Robinson | Game Designer/Developer | Full Stack Developer</span>
+		<span class="toolbar-spacer"></span>
+		<button mat-icon-button aria-label="email icon-button">
+			<mat-icon>email</mat-icon>
+		</button>
+		<a href="https://www.linkedin.com/in/christophermichaelrobinson/" mat-icon-button aria-label="LinkedIn icon-button">
+			<img src="assets/square-linkedin-512.png">
+		</a>
+		<a href="https://github.com/Cethyrion" mat-icon-button aria-label="Github icon-button">
+			<img class="github-icon" src="assets/GitHub.svg">
+		</a>
+	</mat-toolbar>
+	<app-nav-bar></app-nav-bar>
+</header>
 <div class="sheet">
-    <header>
-        <h1 class="mat-h1">Christopher Robinson | Game Designer/Developer | Full Stack Developer</h1>
+        <!-- <h1 class="mat-h1">Christopher Robinson | Game Designer/Developer | Full Stack Developer</h1>
         <div class="icons">
             <mat-icon>email</mat-icon>
             <a href="https://github.com/Cethyrion">
@@ -9,16 +35,14 @@
             <a href="https://www.linkedin.com/in/christophermichaelrobinson/">
                 <img src="assets/square-linkedin-512.png">
             </a>
-        </div>
-        <app-nav-bar></app-nav-bar>
-    </header>
+        </div> -->
 
-    <div class="margins">
-        <router-outlet></router-outlet>
-    </div>
-    <footer>
-        <hr>
 
-        <h4 class=".mat-h4">Copyright &copy; 2020 Christopher Robinson. All Rights Reserved</h4>
-    </footer>
+	<div class="margins">
+		<router-outlet></router-outlet>
+	</div>
+	<footer>
+		<hr>
+		<h4 class=".mat-h4">Copyright &copy; 2020 Christopher Robinson. All Rights Reserved</h4>
+	</footer>
 </div>

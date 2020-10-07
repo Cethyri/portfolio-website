@@ -15,9 +15,10 @@ import { ProfessionalProjectsComponent } from './components/pages/professional-p
 import { ResumeComponent } from './components/pages/resume/resume.component';
 
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { CatGameComponent } from './cat-game/cat-game.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, BioComponent, ContactComponent, PersonalProjectsComponent, ProfessionalProjectsComponent, ResumeComponent],
+  declarations: [AppComponent, NavBarComponent, BioComponent, ContactComponent, PersonalProjectsComponent, ProfessionalProjectsComponent, ResumeComponent, CatGameComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
