@@ -40,8 +40,8 @@ testem.log
 /typings
 
 # unity
-src/assets/*/TemplateData
-src/assets/*/index.html
+src/assets/unity/*/TemplateData
+src/assets/unity/*/index.html
 
 # System Files
 .DS_Store

@@ -14,12 +14,12 @@ import { PersonalProjectsComponent } from './components/pages/personal-projects/
 import { ProfessionalProjectsComponent } from './components/pages/professional-projects/professional-projects.component';
 import { ResumeComponent } from './components/pages/resume/resume.component';
 
-import { PdfViewerModule } from 'ng2-pdf-viewer';
-import { CatGameComponent } from './components/games/cat-game/cat-game.component';
 import { PlayComponent } from './components/pages/play/play.component';
 
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, BioComponent, ContactComponent, PersonalProjectsComponent, ProfessionalProjectsComponent, ResumeComponent, CatGameComponent, PlayComponent],
+  declarations: [AppComponent, NavBarComponent, BioComponent, ContactComponent, PersonalProjectsComponent, ProfessionalProjectsComponent, ResumeComponent, PlayComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

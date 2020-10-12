@@ -24,11 +24,8 @@
             ],
             "styles": [
 			  "src/styles.scss",
-			  "src/assets/UnityTemplateData/style.css"
+			  "src/assets/unity/TemplateData/style.css"
             ],
-            "scripts": [
-				"src/assets/cat-game/Build/cat-game.loader.js"
-			],
             "es5BrowserSupport": true
           },
           "configurations": {
