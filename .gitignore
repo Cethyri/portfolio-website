@@ -39,6 +39,10 @@ yarn-error.log
 testem.log
 /typings
 
+# unity
+src/assets/*/TemplateData
+src/assets/*/index.html
+
 # System Files
 .DS_Store
 Thumbs.db

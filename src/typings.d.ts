@@ -1,0 +1,1 @@
+declare function createUnityInstance(canvas: any, config: any, progressDelagate: any)
