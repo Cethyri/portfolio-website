@@ -24,10 +24,9 @@
               "src/assets"
             ],
             "styles": [
-			  "src/styles.scss",
-			  "src/assets/unity/TemplateData/style.css"
-            ],
-            "es5BrowserSupport": true
+              "src/styles.scss",
+              "src/assets/unity/TemplateData/style.css"
+            ]
           },
           "configurations": {
             "production": {
@@ -128,7 +127,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": "e2e/tsconfig.e2e.json",
+            "tsConfig": "e2e/tsconfig.json",
             "exclude": [
               "**/node_modules/**"
             ]
