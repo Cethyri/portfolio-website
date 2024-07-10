@@ -30,7 +30,7 @@ export class PlayComponent implements OnInit {
 		frameworkUrl: buildUrl + `${projectName}.framework.js`,
 		codeUrl: buildUrl + `${projectName}.wasm`,
 		streamingAssetsUrl: buildUrl + "StreamingAssets",
-		companyName: "Christopher Robinson",
+		companyName: "Thya Robinson",
 		productName: gameConfig.productName,
     	productVersion: gameConfig.productVersion
 	}
